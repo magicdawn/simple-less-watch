@@ -1,0 +1,25 @@
+{
+  "name": "simple-lessc-watch",
+  "version": "0.0.1",
+  "description": "simple lessc-watch",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin":{
+    "lessc-watch": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:magicdawn/simple-lessc-watch.git"
+  },
+  "keywords": [
+    "less"
+  ],
+  "author": "magicdawn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magicdawn/simple-lessc-watch/issues"
+  },
+  "homepage": "https://github.com/magicdawn/simple-lessc-watch"
+}
