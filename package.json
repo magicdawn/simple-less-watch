@@ -6,7 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "bin":{
+  "bin": {
     "lessc-watch": "index.js"
   },
   "repository": {
@@ -16,6 +16,9 @@
   "keywords": [
     "less"
   ],
+  "peerDependencies": {
+    "less": "^2.5.1"
+  },
   "author": "magicdawn",
   "license": "MIT",
   "bugs": {
