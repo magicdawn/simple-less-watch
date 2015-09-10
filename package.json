@@ -1,6 +1,6 @@
 {
   "name": "simple-lessc-watch",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simple lessc-watch",
   "main": "index.js",
   "scripts": {
