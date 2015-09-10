@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+'use strict';
+
+/**
+ * module dependencies
+ */
 var cp = require('child_process');
 var path = require('path');
 var fs = require('fs');
@@ -10,11 +15,7 @@ var fs = require('fs');
 var args = process.argv.slice(2); // abc.less [xxx-options]
 var file = args[0];
 if (!file) {
-  console.log(`
-  usage :
-
-    less-watch abc.less [xxx-options]`);
-
+  console.log('\n\n  usage : less-watch abc.less [xxx-options]  \n\n');
   process.exit(1);
 }
 
@@ -37,7 +38,9 @@ var isCompiling;
  * do compile each time
  */
 function compile() {
-  if (isCompiling) return;
+  if (isCompiling) {
+    return;
+  }
   isCompiling = true;
 
   var exe = 'lessc';
