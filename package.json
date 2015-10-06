@@ -17,12 +17,20 @@
     "less"
   ],
   "peerDependencies": {
-    "less": "^2.5.1"
+    "less": "^2.5.3"
   },
   "author": "magicdawn",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/magicdawn/simple-lessc-watch/issues"
   },
-  "homepage": "https://github.com/magicdawn/simple-lessc-watch"
+  "homepage": "https://github.com/magicdawn/simple-lessc-watch",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "log-symbols": "^1.0.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=4"
+  }
 }
