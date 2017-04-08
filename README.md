@@ -1,5 +1,7 @@
 # simple-lessc-watch
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/magicdawn/simple-lessc-watch.svg)](https://greenkeeper.io/)
+
 [![](https://img.shields.io/npm/v/simple-lessc-watch.svg)](https://www.npmjs.com/package/simple-lessc-watch)
 
 ## Install
